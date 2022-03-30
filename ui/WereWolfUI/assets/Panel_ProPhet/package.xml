@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="cbqxmvx5">
+  <resources>
+    <component id="kghr0" name="Main.xml" path="/" exported="true"/>
+    <component id="kghr2" name="GuideMessage.xml" path="/"/>
+    <component id="kghr3" name="Card.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

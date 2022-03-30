@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" designImageOffsetX="8" designImageOffsetY="8" bgColorEnabled="true" bgColor="#000000">
+  <displayList>
+    <loader id="n5_r4hh" name="BG" xy="0,0" size="1600,900" alpha="0.8" url="ui://qoonkf3pwdgf18" align="center" vAlign="middle" fill="scaleFree" color="#ff0000"/>
+    <text id="n0_r4hh" name="Tex_Sound" xy="251,212" size="404,104" fontSize="80" color="#ffff00" text="游戏音量："/>
+    <text id="n1_r4hh" name="Tex_Language" xy="251,387" size="404,104" fontSize="80" color="#ffff00" text="语言设置："/>
+    <component id="n2_r4hh" name="Btn_Back" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="646,731"/>
+    <component id="n3_r4hh" name="Slider_Sound" src="r4hh2" fileName="Slider_Sound.xml" xy="858,249">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n4_r4hh" name="Combox_Language" src="r4hh5" fileName="Combox_Language.xml" xy="985,418">
+      <ComboBox title="中文" visibleItemCount="3" direction="down">
+        <item title="中文" icon="ui://cd8qbkcgr4hh3"/>
+        <item title="英文" icon="ui://cd8qbkcgr4hh3"/>
+        <item title="日文" icon="ui://cd8qbkcgr4hh3"/>
+      </ComboBox>
+    </component>
+    <component id="n6_r4hh" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0"/>
+  </displayList>
+</component>

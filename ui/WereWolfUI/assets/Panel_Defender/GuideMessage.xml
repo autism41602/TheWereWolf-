@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="904,129">
+  <controller name="c1" pages="0,Oepn,1,Act1,2,Act2,3,Close" selected="3"/>
+  <displayList>
+    <text id="n2_kghr" name="n2" xy="0,0" size="904,129" fontSize="100" color="#666666" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="守卫请闭眼">
+      <gearColor controller="c1" pages="1,2" values="#ffff00,#000000|#ffff00,#000000" default="#666666,#000000"/>
+      <gearText controller="c1" pages="0,3" values="守卫请睁眼|守卫请闭眼" default="今晚您要守护的玩家"/>
+    </text>
+  </displayList>
+</component>

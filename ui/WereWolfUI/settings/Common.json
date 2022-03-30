@@ -1,0 +1,27 @@
+{
+  "font": "ui://qoonkf3pwkxp1k",
+  "fontSize": 12,
+  "textColor": "#000000",
+  "fontAdjustment": false,
+  "colorScheme": [
+    "自定义颜色 #FF0000",
+    "按钮颜色 #FFFF00"
+  ],
+  "fontSizeScheme": [
+    "自定义字体大小 30",
+    "按钮字体 50",
+    "说明字体 100"
+  ],
+  "fontScheme": [
+    "默认字体"
+  ],
+  "scrollBars": {
+    "horizontal": "",
+    "vertical": "",
+    "defaultDisplay": "visible"
+  },
+  "tipsRes": "",
+  "buttonClickSound": "ui://qoonkf3pwdgf14",
+  "pivot": "default",
+  "fileName": "Common"
+}

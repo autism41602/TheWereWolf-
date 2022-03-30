@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" designImage="ui://qoonkf3pwdgfm" designImageOffsetX="6" designImageOffsetY="2" bgColorEnabled="true" bgColor="#000000">
+  <displayList>
+    <loader id="n7_r4hh" name="BG" xy="0,0" size="1600,900" url="ui://qoonkf3pwdgf18" fill="scaleFree" color="#ff0000"/>
+    <image id="n1_r4hh" name="Img_IDView" src="wdgf1i" fileName="Help/IDView.png" pkg="qoonkf3p" xy="657,413" size="286,69" group="n5_r4hh"/>
+    <text id="n2_r4hh" name="Tex_ID" xy="657,411" size="286,69" group="n5_r4hh" fontSize="50" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="身  份"/>
+    <image id="n3_r4hh" name="Img_Introduce" src="wdgf1h" fileName="Help/Introduce.png" pkg="qoonkf3p" xy="511,495" size="612,211" group="n5_r4hh"/>
+    <text id="n4_r4hh" name="Tex_Introduce" xy="551,521" size="532,163" group="n5_r4hh" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text=""/>
+    <group id="n5_r4hh" name="n5" xy="511,411" size="612,294"/>
+    <component id="n6_r4hh" name="Btn_Back" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="650,775">
+      <Button icon="ui://qoonkf3pwdgf12"/>
+    </component>
+    <list id="n8_r4hh" name="CardList" xy="0,0" size="1600,406" layout="row" overflow="scroll" scroll="horizontal" margin="55,21,0,0" colGap="21" defaultItem="ui://cm4d7omar4hh1" align="center" vAlign="middle" renderOrder="arch">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n9_r4hh" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0"/>
+  </displayList>
+</component>

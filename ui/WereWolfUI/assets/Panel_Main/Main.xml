@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" designImage="ui://qoonkf3pwdgfx" designImageOffsetX="6" designImageOffsetY="2" bgColorEnabled="true" bgColor="#000000">
+  <displayList>
+    <loader id="n5_wkxp" name="BG" xy="0,0" size="1600,900" url="ui://qoonkf3pwdgfz" fill="scaleFree"/>
+    <loader id="n4_wkxp" name="MainTitle" xy="286,-122" pivot="0.5,0.5" size="950,593" aspect="true" url="ui://qoonkf3pwdgfy" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <component id="n0_wkxp" name="Btn_StartGame" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="635,357">
+      <Button title="开始游戏" icon="ui://qoonkf3pwdgf12"/>
+    </component>
+    <component id="n1_wkxp" name="Btn_Help" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="635,487">
+      <Button title="游戏帮助" icon="ui://qoonkf3pwdgf13"/>
+    </component>
+    <component id="n2_wkxp" name="Btn_Setting" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="635,617">
+      <Button title="游戏设置" icon="ui://qoonkf3pwdgf10"/>
+    </component>
+    <component id="n3_wkxp" name="Btn_ExitGame" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="635,747">
+      <Button title="退出游戏" icon="ui://qoonkf3pwdgf11"/>
+    </component>
+    <component id="n6_r4hh" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0" touchable="false"/>
+    <graph id="n7_r4hh" name="WhiteMask" xy="0,0" size="1600,900" type="rect"/>
+  </displayList>
+  <transition name="WhiteMaskAnim">
+    <item time="0" type="Alpha" target="n7_r4hh" tween="true" startValue="1" endValue="0" duration="5"/>
+  </transition>
+</component>

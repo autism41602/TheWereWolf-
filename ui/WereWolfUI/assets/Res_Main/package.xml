@@ -1,4 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="qoonkf3p">
-  <resources/>
+  <resources>
+    <image id="wdgf0" name="2-Grey.png" path="/Defender/" exported="true"/>
+    <image id="wdgf1" name="defender.jpg" path="/Defender/" exported="true" scale="tile"/>
+    <image id="wdgf2" name="Guard.png" path="/Defender/" exported="true"/>
+    <image id="wdgf3" name="Hunter.jpg" path="/Hunter/" exported="true" scale="tile" scale9grid="225,225,450,450"/>
+    <image id="wdgf4" name="2-Emerald.png" path="/Hunter/" exported="true"/>
+    <image id="wdgf5" name="2-Topaz.png" path="/Prophet/" exported="true"/>
+    <image id="wdgf8" name="CrystalBall.png" path="/Prophet/" exported="true"/>
+    <image id="wdgf9" name="Prophet.jpg" path="/Prophet/" exported="true" scale="tile" scale9grid="225,225,450,450"/>
+    <image id="wdgfa" name="RotateLight.png" path="/Prophet/" exported="true"/>
+    <image id="wdgfb" name="Witch.jpg" path="/Switch/" exported="true" scale="tile"/>
+    <image id="wdgfc" name="2-Lime.png" path="/Switch/" exported="true"/>
+    <image id="wdgfd" name="2-Sapphire.png" path="/Switch/" exported="true"/>
+    <image id="wdgfe" name="PotionLight.png" path="/Switch/" exported="true"/>
+    <image id="wdgff" name="2-Ruby.png" path="/Wolf/" exported="true"/>
+    <image id="wdgfg" name="Boom.png" path="/Wolf/" exported="true"/>
+    <image id="wdgfh" name="KillLight.png" path="/Wolf/" exported="true"/>
+    <image id="wdgfi" name="Wolf.jpg" path="/Wolf/" exported="true" scale="tile"/>
+    <image id="wdgfj" name="set_03.png" path="/Set/" exported="true"/>
+    <image id="wdgfk" name="set_02.png" path="/Set/" exported="true"/>
+    <image id="wdgfl" name="set_01.png" path="/Set/" exported="true" scale="9grid" scale9grid="125,11,250,22"/>
+    <image id="wdgfm" name="帮助界面.png" path="/Maps/"/>
+    <image id="wdgfn" name="发牌界面.png" path="/Maps/"/>
+    <image id="wdgfo" name="放逐界面.png" path="/Maps/"/>
+    <image id="wdgfp" name="开闭眼界面.png" path="/Maps/"/>
+    <image id="wdgfq" name="狼人界面.png" path="/Maps/"/>
+    <image id="wdgfr" name="猎人界面.png" path="/Maps/"/>
+    <image id="wdgfs" name="女巫界面.png" path="/Maps/"/>
+    <image id="wdgft" name="设置界面.png" path="/Maps/"/>
+    <image id="wdgfu" name="守卫界面.png" path="/Maps/"/>
+    <image id="wdgfv" name="天亮界面.png" path="/Maps/"/>
+    <image id="wdgfw" name="预言家界面.png" path="/Maps/"/>
+    <image id="wdgfx" name="主界面.png" path="/Maps/"/>
+    <image id="wdgfy" name="MainTItle.png" path="/Main/" exported="true"/>
+    <image id="wdgfz" name="MainBG.jpg" path="/Main/" exported="true"/>
+    <image id="wdgf10" name="Btn_MainBlue.png" path="/Main/" exported="true"/>
+    <image id="wdgf11" name="Btn_MainGreen.png" path="/Main/" exported="true"/>
+    <image id="wdgf12" name="Btn_MainOrange.png" path="/Main/" exported="true"/>
+    <image id="wdgf13" name="Btn_MainPurple.png" path="/Main/" exported="true"/>
+    <sound id="wdgf14" name="Crumple.wav" path="/Main/" exported="true"/>
+    <sound id="wdgf15" name="Rumble.wav" path="/Main/" exported="true"/>
+    <sound id="wdgf16" name="Swipe.wav" path="/Main/" exported="true"/>
+    <sound id="wdgf17" name="Tap.wav" path="/Main/" exported="true"/>
+    <image id="wdgf18" name="HelpBG.jpg" path="/Help/" exported="true"/>
+    <image id="wdgf1a" name="ID1.jpg" path="/Help/" exported="true"/>
+    <image id="wdgf1b" name="ID2.jpg" path="/Help/" exported="true"/>
+    <image id="wdgf1c" name="ID3.jpg" path="/Help/" exported="true"/>
+    <image id="wdgf1d" name="ID4.jpg" path="/Help/" exported="true"/>
+    <image id="wdgf1e" name="ID5.jpg" path="/Help/" exported="true"/>
+    <image id="wdgf1f" name="ID6.jpg" path="/Help/" exported="true"/>
+    <image id="wdgf1g" name="ID7.jpg" path="/Help/" exported="true"/>
+    <image id="wdgf1h" name="Introduce.png" path="/Help/" exported="true" scale="9grid" scale9grid="90,47,47,26"/>
+    <image id="wdgf1i" name="IDView.png" path="/Help/" exported="true" scale="9grid" scale9grid="48,10,96,20"/>
+    <image id="wdgf1j" name="StarLight.png" path="/Game/" exported="true"/>
+    <font id="wkxp1k" name="汉仪南宫体简.ttf" path="/Font/" exported="true" renderMode="" samplePointSize="16"/>
+    <image id="kghr1l" name="load.png" path="/Game/" exported="true"/>
+  </resources>
+  <publish name=""/>
 </packageDescription>

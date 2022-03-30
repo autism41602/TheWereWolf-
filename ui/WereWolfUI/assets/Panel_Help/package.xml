@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="cm4d7oma">
+  <resources>
+    <component id="r4hh0" name="Main.xml" path="/" exported="true"/>
+    <component id="r4hh1" name="BtnHelpCard.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

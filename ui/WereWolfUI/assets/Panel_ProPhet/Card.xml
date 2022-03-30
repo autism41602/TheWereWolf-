@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150" pivot="0.5,0.5" extention="Button">
+  <controller name="c1" pages="0,BG,1,People,2,Wolf" selected="0"/>
+  <displayList>
+    <image id="n0_kghr" name="BG" src="wdgf19" fileName="BG/CardsBG.png" pkg="qr95dasd" xy="0,0" size="150,150">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_kghr" name="Img_Wolf" src="wdgf1a" fileName="Help/ID1.jpg" pkg="qoonkf3p" xy="0,0" size="150,150">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n3_kghr" name="Img_Villager" src="wdgf1f" fileName="Help/ID6.jpg" pkg="qoonkf3p" xy="0,0" size="150,150">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n1_kghr" name="title" xy="10,35" size="130,79" font="ui://qr95dasdwdgff" fontSize="12" color="#ff66cc" align="center" letterSpacing="-24" autoSize="none" text="12"/>
+    <movieclip id="n4_kghr" name="Anim_Light" src="wdgfi" fileName="Anim/CardLight.jta" pkg="qr95dasd" xy="106,98" pivot="0.5,0.5" size="53,77" aspect="true"/>
+  </displayList>
+  <Button/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Size" target="n4_kghr" tween="true" startValue="53,77" endValue="129.779,188.547" duration="12"/>
+    <item time="12" type="Size" target="n4_kghr" tween="true" startValue="129.779,188.547" endValue="53,77" duration="12"/>
+  </transition>
+</component>

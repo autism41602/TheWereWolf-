@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,47" extention="Slider">
+  <displayList>
+    <image id="n0_r4hh" name="n0" src="wdgfl" fileName="Set/set_01.png" pkg="qoonkf3p" xy="0,0" size="500,47">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_r4hh" name="bar" src="wdgfk" fileName="Set/set_02.png" pkg="qoonkf3p" xy="42,10" size="416,27"/>
+    <text id="n2_r4hh" name="title" xy="529,-9" size="10,66" fontSize="50" color="#ffff00" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n3_r4hh" name="grip" src="r4hh1" fileName="Slider_Sound_grip.xml" xy="416,0">
+      <relation target="n1_r4hh" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>

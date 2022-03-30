@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,ShowID,1,LoadGame" selected="1"/>
+  <displayList>
+    <loader id="n2_kghr" name="BG" xy="0,0" size="1600,900" alpha="0.2" url="ui://qr95dasdwdgf0" fill="scaleFree" color="#ff0000"/>
+    <component id="n0_kghr" name="GuideMessage" src="kghr2" fileName="GuideMessage.xml" xy="334,138"/>
+    <component id="n1_kghr" name="Btn_Card" src="kghr1" fileName="Card.xml" xy="680,292">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n4_kghr" name="Img_Light" src="wdgf1j" fileName="Game/StarLight.png" pkg="qoonkf3p" xy="768,398" pivot="0.5,0.5" size="124,87" aspect="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n5_kghr" name="n5" src="kghr1l" fileName="Game/load.png" pkg="qoonkf3p" xy="575,204" pivot="0.52,0.51">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n3_kghr" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n4_kghr" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Size" target="n4_kghr" tween="true" startValue="124,87" endValue="401.356,281.597" duration="12"/>
+  </transition>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n5_kghr" tween="true" startValue="0" endValue="180" duration="18" ease="Linear"/>
+    <item time="18" type="Rotation" target="n5_kghr" tween="true" startValue="180" endValue="360" duration="18" ease="Linear"/>
+  </transition>
+</component>

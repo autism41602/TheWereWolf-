@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="qr95dasd">
-  <resources/>
+  <resources>
+    <image id="wdgf19" name="CardsBG.png" path="/BG/" exported="true"/>
+    <image id="wdgf0" name="IdentityBG.jpg" path="/BG/" exported="true"/>
+    <image id="wdgf1" name="3-Colored.png" path="/Button/" exported="true"/>
+    <image id="wdgf2" name="2-Orange.png" path="/Button/" exported="true"/>
+    <image id="wdgf3" name="3-Black&apos;n&apos;White.png" path="/Button/" exported="true"/>
+    <image id="wdgf4" name="closeEye.png" path="/Button/" exported="true"/>
+    <image id="wdgf5" name="0.png" path="/Number/"/>
+    <image id="wdgf6" name="1.png" path="/Number/"/>
+    <image id="wdgf7" name="2.png" path="/Number/"/>
+    <image id="wdgf8" name="3.png" path="/Number/"/>
+    <image id="wdgf9" name="4.png" path="/Number/"/>
+    <image id="wdgfa" name="5.png" path="/Number/"/>
+    <image id="wdgfb" name="6.png" path="/Number/"/>
+    <image id="wdgfc" name="7.png" path="/Number/"/>
+    <image id="wdgfd" name="8.png" path="/Number/"/>
+    <image id="wdgfe" name="9.png" path="/Number/"/>
+    <font id="wdgff" name="FontNumber.fnt" path="/Number/" exported="true"/>
+    <image id="wdgfg" name="CardLight1.png" path="/Anim/"/>
+    <image id="wdgfh" name="CardLight2.png" path="/Anim/"/>
+    <movieclip id="wdgfi" name="CardLight.jta" path="/Anim/" exported="true"/>
+    <movieclip id="wdgfj" name="OpenEyes.jta" path="/Anim/" exported="true"/>
+    <movieclip id="wdgfk" name="CloseEyes.jta" path="/Anim/" exported="true"/>
+    <image id="kghr1a" name="timg.jpg" path="/BG/" exported="true"/>
+    <image id="kghr1b" name="Drak.png" path="/BG/" exported="true"/>
+  </resources>
+  <publish name=""/>
 </packageDescription>

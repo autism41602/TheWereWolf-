@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" designImageOffsetX="5" designImageOffsetY="3" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,Oepn,1,Act1,2,Act2,3,Close" selected="0"/>
+  <displayList>
+    <image id="n24_kghr" name="BG" src="wdgfi" fileName="Wolf/Wolf.jpg" pkg="qoonkf3p" xy="-570,0" size="2700,900" group="n23_kghr" alpha="0.66"/>
+    <graph id="n25_kghr" name="LeftMask" xy="0,0" size="309,900" group="n23_kghr" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <graph id="n26_kghr" name="RightMask" xy="1261,0" size="339,900" group="n23_kghr" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <component id="n6_kghr" name="n6" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="91,281" group="n18_kghr">
+      <Button title="1"/>
+    </component>
+    <component id="n7_kghr" name="n7" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="346,281" group="n18_kghr">
+      <Button title="2"/>
+    </component>
+    <component id="n8_kghr" name="n8" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="94,438" group="n18_kghr">
+      <Button title="3"/>
+    </component>
+    <component id="n9_kghr" name="n9" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="340,446" group="n18_kghr">
+      <Button title="4"/>
+    </component>
+    <component id="n10_kghr" name="n10" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="92,618" group="n18_kghr">
+      <Button title="5"/>
+    </component>
+    <component id="n11_kghr" name="n11" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="345,627" group="n18_kghr">
+      <Button title="6"/>
+    </component>
+    <component id="n12_kghr" name="n12" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="1056,289" group="n18_kghr">
+      <Button title="7"/>
+    </component>
+    <component id="n13_kghr" name="n13" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="1295,292" group="n18_kghr">
+      <Button title="8"/>
+    </component>
+    <component id="n14_kghr" name="n14" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="1066,461" group="n18_kghr">
+      <Button title="9"/>
+    </component>
+    <component id="n15_kghr" name="n15" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="1299,453" group="n18_kghr">
+      <Button title="10"/>
+    </component>
+    <component id="n16_kghr" name="n16" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="1070,638" group="n18_kghr">
+      <Button title="11"/>
+    </component>
+    <component id="n17_kghr" name="n17" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="1301,631" group="n18_kghr">
+      <Button title="12"/>
+    </component>
+    <group id="n18_kghr" name="Group_KillNumber" xy="91,281" size="1342,436" group="n23_kghr" advanced="true"/>
+    <component id="n19_kghr" name="Btn_Certain" src="wkxp5" fileName="Btn_Act.xml" pkg="clld2jd3" xy="620,714" group="n23_kghr">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button icon="ui://qoonkf3pwdgff"/>
+    </component>
+    <image id="n21_kghr" name="Img_KillLight" src="wdgfh" fileName="Wolf/KillLight.png" pkg="qoonkf3p" xy="577,307" pivot="0.5,0.475" size="400,400" group="n23_kghr" aspect="true"/>
+    <image id="n22_kghr" name="Img_Boom" src="wdgfg" fileName="Wolf/Boom.png" pkg="qoonkf3p" xy="571,339" pivot="0.5,0.5" group="n23_kghr"/>
+    <text id="n20_kghr" name="Tex_KillNumber" xy="700,457" pivot="0.5,0.5" size="164,79" group="n23_kghr" font="ui://qr95dasdwdgff" fontSize="12" color="#ff0000" align="center" vAlign="middle" letterSpacing="-24" autoSize="none" text="0"/>
+    <group id="n23_kghr" name="Group_Act" xy="-570,0" size="2700,900" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <component id="n1_kghr" name="GuideMessage" src="kghr1" fileName="GuideMessage.xml" xy="298,209">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearXY controller="c1" pages="1,2" values="298,99|298,104" default="298,209"/>
+    </component>
+    <component id="n0_kghr" name="EyeClose" src="wdgf2" fileName="EyeClose.xml" pkg="clld2jd3" xy="615,466">
+      <gearDisplay controller="c1" pages="3"/>
+    </component>
+    <component id="n2_kghr" name="EyeOpen" src="wdgf1" fileName="EyeOpen.xml" pkg="clld2jd3" xy="614,466">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n3_kghr" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0" touchable="false"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n21_kghr" value="1"/>
+    <item time="0" type="Alpha" target="n22_kghr" value="0"/>
+    <item time="0" type="Rotation" target="n21_kghr" tween="true" startValue="0" endValue="90" duration="24" ease="Linear"/>
+    <item time="0" type="Scale" target="n21_kghr" tween="true" startValue="1,1" endValue="0.5,0.5" duration="48" ease="Linear"/>
+    <item time="24" type="Rotation" target="n21_kghr" tween="true" startValue="90" endValue="180" duration="24" ease="Linear"/>
+    <item time="48" type="Rotation" target="n21_kghr" tween="true" startValue="180" endValue="270" duration="24" ease="Linear"/>
+    <item time="48" type="Scale" target="n21_kghr" tween="true" startValue="0.5,0.5" endValue="1,1" duration="48" ease="Linear"/>
+    <item time="72" type="Rotation" target="n21_kghr" tween="true" startValue="270" endValue="360" duration="24" ease="Linear"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n22_kghr" value="0"/>
+    <item time="0" type="Rotation" target="n21_kghr" tween="true" startValue="0" endValue="180" duration="24"/>
+    <item time="0" type="Scale" target="n21_kghr" tween="true" startValue="1,1" endValue="0.3,0.3" duration="18"/>
+    <item time="18" type="Alpha" target="n21_kghr" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="18" type="Alpha" target="n22_kghr" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="18" type="Scale" target="n22_kghr" tween="true" startValue="0.3,0.3" endValue="1,1" duration="6"/>
+  </transition>
+</component>

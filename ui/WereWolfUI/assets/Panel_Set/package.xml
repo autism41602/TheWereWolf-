@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="cd8qbkcg">
+  <resources>
+    <component id="r4hh0" name="Main.xml" path="/" exported="true"/>
+    <component id="r4hh1" name="Slider_Sound_grip.xml" path="/"/>
+    <component id="r4hh2" name="Slider_Sound.xml" path="/"/>
+    <component id="r4hh3" name="Combox_Language_item.xml" path="/"/>
+    <component id="r4hh4" name="Combox_Language_popup.xml" path="/"/>
+    <component id="r4hh5" name="Combox_Language.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

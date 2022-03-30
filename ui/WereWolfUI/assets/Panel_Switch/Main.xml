@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" designImageOffsetX="6" designImageOffsetY="3" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,Oepn,1,Act1,2,Act2,3,Close" selected="0"/>
+  <displayList>
+    <image id="n15_kghr" name="n15" src="wdgfb" fileName="Switch/Witch.jpg" pkg="qoonkf3p" xy="-550,0" pivot="0.5,0.5" size="2700,900" group="n14_kghr" alpha="0.8"/>
+    <graph id="n16_kghr" name="LeftMask" xy="0,0" size="324,900" group="n14_kghr" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <graph id="n17_kghr" name="RightMask" xy="1276,0" size="324,900" group="n14_kghr" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <image id="n10_kghr" name="Img_Kill" src="wdgfe" fileName="Switch/PotionLight.png" pkg="qoonkf3p" xy="982,316" pivot="0.484,0.468" size="258,256" group="n14_kghr" color="#00ff00"/>
+    <component id="n11_kghr" name="Btn_Certain" src="wkxp5" fileName="Btn_Act.xml" pkg="clld2jd3" xy="642,637" group="n14_kghr">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button icon="ui://qoonkf3pwdgfc"/>
+    </component>
+    <text id="n13_kghr" name="Tex_KillNumber" xy="997,308" size="141,129" group="n14_kghr" fontSize="100" color="#ff0000" align="center" autoSize="none" strokeColor="#000000" strokeSize="2" text="12" input="true" prompt="0" maxLength="2" restrict="[0-9]" keyboardType="4">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <group id="n14_kghr" name="Group_Act" xy="-550,0" size="2700,900" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <component id="n4_kghr" name="Btn_Save" src="wkxp5" fileName="Btn_Act.xml" pkg="clld2jd3" xy="311,650" group="n8_kghr">
+      <Button title="使用解药" icon="ui://qoonkf3pwdgfd"/>
+    </component>
+    <component id="n5_kghr" name="Btn_Kill" src="wkxp5" fileName="Btn_Act.xml" pkg="clld2jd3" xy="951,652" group="n8_kghr">
+      <Button title="使用毒药" icon="ui://qoonkf3pwdgfc"/>
+    </component>
+    <component id="n6_kghr" name="Btn_Jump" src="wkxp5" fileName="Btn_Act.xml" pkg="clld2jd3" xy="1268,76" group="n8_kghr">
+      <Button title="跳 过" icon="ui://qr95dasdwdgf2"/>
+    </component>
+    <text id="n7_kghr" name="Tex_WolfKillNumber" xy="743,515" pivot="0.5,0.5" size="130,79" group="n8_kghr" font="ui://qr95dasdwdgff" fontSize="12" color="#00ff00" align="center" letterSpacing="-24" autoSize="none" text="0"/>
+    <image id="n9_kghr" name="Img_Save" src="wdgfe" fileName="Switch/PotionLight.png" pkg="qoonkf3p" xy="333,295" pivot="0.482,0.471" size="258,256" group="n8_kghr" color="#0000ff"/>
+    <group id="n8_kghr" name="Group_Act1" xy="311,76" size="1269,667" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n3_kghr" name="GuideMessage" src="kghr1" fileName="GuideMessage.xml" xy="422,54">
+      <gearXY controller="c1" default="422,54"/>
+    </component>
+    <component id="n0_kghr" name="EyeOpen" src="wdgf1" fileName="EyeOpen.xml" pkg="clld2jd3" xy="625,472"/>
+    <component id="n1_kghr" name="EyeClose" src="wdgf2" fileName="EyeClose.xml" pkg="clld2jd3" xy="625,472"/>
+    <component id="n2_kghr" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n10_kghr" tween="true" startValue="0" endValue="180" duration="24" ease="Linear"/>
+    <item time="0" type="Rotation" target="n9_kghr" tween="true" startValue="0" endValue="180" duration="24" ease="Linear"/>
+    <item time="24" type="Rotation" target="n10_kghr" tween="true" startValue="180" endValue="360" duration="24" ease="Linear"/>
+    <item time="24" type="Rotation" target="n9_kghr" tween="true" startValue="180" endValue="360" duration="24" ease="Linear"/>
+  </transition>
+</component>

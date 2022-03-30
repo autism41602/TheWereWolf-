@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,172">
+  <displayList>
+    <movieclip id="n0_wdgf" name="Anim_Eye" src="wdgfk" fileName="Anim/CloseEyes.jta" pkg="qr95dasd" xy="0,0" size="360,172" aspect="true" playing="false"/>
+  </displayList>
+  <transition name="Hide">
+    <item time="0" type="Alpha" target="n0_wdgf" tween="true" startValue="1" endValue="0" duration="18"/>
+  </transition>
+</component>

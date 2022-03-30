@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="312,91" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n0_wkxp" name="icon" xy="0,0" size="312,91" url="ui://qoonkf3pwdgf5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_wkxp" name="title" xy="79,12" pivot="0.5,0.5" size="154,66" fontSize="50" color="#ffff00" strokeColor="#000000" strokeSize="3" shadowColor="#000000" shadowOffset="1,1" text="确  定"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

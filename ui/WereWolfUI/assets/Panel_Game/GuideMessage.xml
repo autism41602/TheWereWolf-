@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="955,667">
+  <controller name="c1" pages="0,HideID,1,ShowID,2,LoadGame" selected="2"/>
+  <displayList>
+    <text id="n0_kghr" name="Tex_GuideID" xy="236,3" pivot="0.5,0.5" size="816,129" fontSize="100" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="号玩家看身份">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="140,6|-14,7" default="236,3"/>
+      <gearText controller="c1" pages="1" values="您的身份是" default="号玩家看身份"/>
+    </text>
+    <text id="n3_kghr" name="Tex_Number" xy="130,31" size="130,79" font="ui://qr95dasdwdgff" fontSize="12" color="#33ff00" align="center" letterSpacing="-24" text="12">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n5_kghr" name="Tex_ID" xy="631,3" size="204,129" fontSize="100" color="#ff0000" vAlign="middle" text="狼人">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n2_kghr" name="Tex_GuideClick" xy="0,453" size="955,214" fontSize="80" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="游戏加载中">
+      <gearText controller="c1" pages="0,2" values="点击卡牌查看身份|游戏加载中" default="点击卡牌隐藏身份，并将手机递给下一位"/>
+    </text>
+  </displayList>
+</component>

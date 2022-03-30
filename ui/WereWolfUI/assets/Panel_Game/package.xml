@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="cxgbpywd">
+  <resources>
+    <component id="kghr0" name="Main.xml" path="/" exported="true"/>
+    <component id="kghr1" name="Card.xml" path="/"/>
+    <component id="kghr2" name="GuideMessage.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="804,129">
+  <controller name="c1" pages="0,Oepn,1,Act1,2,Act2,3,Close" selected="3"/>
+  <displayList>
+    <text id="n3_kghr" name="GuideMessage" xy="0,0" size="804,129" fontSize="100" color="#00cc00" align="center" autoSize="none" strokeColor="#000000" strokeSize="2" text="女巫请闭眼">
+      <gearColor controller="c1" pages="1" values="#ffff00,#000000" default="#00cc00,#000000"/>
+      <gearText controller="c1" pages="0,1,3" values="女巫请睁眼|今晚死亡的玩家是|女巫请闭眼" default="您要毒杀的玩家是"/>
+    </text>
+  </displayList>
+</component>

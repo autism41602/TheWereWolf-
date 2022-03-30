@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" designImageOffsetX="6" designImageOffsetY="3" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,Oepn,1,Act1,2,Act2,3,Close" selected="1"/>
+  <displayList>
+    <image id="n20_kghr" name="BG" src="wdgf9" fileName="Prophet/Prophet.jpg" pkg="qoonkf3p" xy="-566,0" pivot="0.5,0.5" size="2700,900" group="n23_kghr" alpha="0.66"/>
+    <graph id="n21_kghr" name="LeftMask" xy="0,0" size="342,900" group="n23_kghr" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <graph id="n22_kghr" name="RightMask" xy="1232,0" size="368,900" group="n23_kghr" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <image id="n19_kghr" name="RotateLight" src="wdgfa" fileName="Prophet/RotateLight.png" pkg="qoonkf3p" xy="634,634" pivot="0.55,0.1" size="253,101" group="n23_kghr" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n18_kghr" name="CrystalBall" src="wdgf8" fileName="Prophet/CrystalBall.png" pkg="qoonkf3p" xy="631,530" group="n23_kghr" alpha="0.8">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n4_kghr" name="Btn_Certain" src="wkxp5" fileName="Btn_Act.xml" pkg="clld2jd3" xy="635,778" group="n23_kghr">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="确  定"/>
+    </component>
+    <component id="n24_kghr" name="Btn_Jump" src="wkxp5" fileName="Btn_Act.xml" pkg="clld2jd3" xy="635,778" group="n23_kghr">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button title="跳  过"/>
+    </component>
+    <component id="n5_kghr" name="n5" src="kghr3" fileName="Card.xml" xy="84,39" group="n17_kghr">
+      <Button title="1"/>
+    </component>
+    <component id="n6_kghr" name="n6" src="kghr3" fileName="Card.xml" xy="434,206" group="n17_kghr">
+      <Button title="2"/>
+    </component>
+    <component id="n7_kghr" name="n7" src="kghr3" fileName="Card.xml" xy="21,249" group="n17_kghr">
+      <Button title="3"/>
+    </component>
+    <component id="n8_kghr" name="n8" src="kghr3" fileName="Card.xml" xy="241,445" group="n17_kghr">
+      <Button title="4"/>
+    </component>
+    <component id="n9_kghr" name="n9" src="kghr3" fileName="Card.xml" xy="81,642" group="n17_kghr">
+      <Button title="5"/>
+    </component>
+    <component id="n10_kghr" name="n10" src="kghr3" fileName="Card.xml" xy="424,730" group="n17_kghr">
+      <Button title="6"/>
+    </component>
+    <component id="n11_kghr" name="n11" src="kghr3" fileName="Card.xml" xy="1092,721" group="n17_kghr">
+      <Button title="7"/>
+    </component>
+    <component id="n12_kghr" name="n12" src="kghr3" fileName="Card.xml" xy="1420,649" group="n17_kghr">
+      <Button title="8"/>
+    </component>
+    <component id="n13_kghr" name="n13" src="kghr3" fileName="Card.xml" xy="1178,448" group="n17_kghr">
+      <Button title="9"/>
+    </component>
+    <component id="n14_kghr" name="n14" src="kghr3" fileName="Card.xml" xy="967,279" group="n17_kghr">
+      <Button title="10"/>
+    </component>
+    <component id="n15_kghr" name="n15" src="kghr3" fileName="Card.xml" xy="1424,258" group="n17_kghr">
+      <Button title="11"/>
+    </component>
+    <component id="n16_kghr" name="n16" src="kghr3" fileName="Card.xml" xy="1354,50" group="n17_kghr">
+      <Button title="12"/>
+    </component>
+    <group id="n17_kghr" name="Group_Cards" xy="21,39" size="1553,841" group="n23_kghr" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <group id="n23_kghr" name="Group_Act" xy="-566,0" size="2700,900" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <component id="n0_kghr" name="GuideMessage" src="kghr2" fileName="GuideMessage.xml" xy="298,0">
+      <gearXY controller="c1" pages="0,1,2,3" values="298,145|298,0|298,0|298,145"/>
+    </component>
+    <component id="n1_kghr" name="EyeClose" src="wdgf2" fileName="EyeClose.xml" pkg="clld2jd3" xy="624,467"/>
+    <component id="n2_kghr" name="EyeOpen" src="wdgf1" fileName="EyeOpen.xml" pkg="clld2jd3" xy="624,467"/>
+    <component id="n3_kghr" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0" touchable="false"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Rotation" target="n19_kghr" tween="true" startValue="0" endValue="180" duration="36" ease="Linear"/>
+    <item time="36" type="Rotation" target="n19_kghr" tween="true" startValue="180" endValue="360" duration="36" ease="Linear"/>
+  </transition>
+</component>

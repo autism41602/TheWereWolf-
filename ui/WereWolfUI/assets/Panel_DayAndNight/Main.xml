@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" designImageOffsetX="7" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,DayBreaking,1,DyingMessage_Safe,2,DyingMessage_One,3,DyingMessage_Two,4,Execute,5,Lastwords,6,GameOverVillagers,7,GameOverWolf,8,GetingDrak" selected="8"/>
+  <displayList>
+    <loader id="n4_kghr" name="BG" xy="0,0" size="1600,900" url="ui://qr95dasdkghr1a" fill="scaleFree">
+      <gearDisplay controller="c1" pages="1,2,3,4,5,6,7"/>
+    </loader>
+    <component id="n3_kghr" name="Btn_Return" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="1259,36">
+      <gearDisplay controller="c1" pages="1,2,3,4,5,6,7"/>
+      <Button title="结束游戏" icon="ui://qr95dasdwdgf3"/>
+    </component>
+    <component id="n1_kghr" name="GuideMessage" src="kghr1" fileName="GuideMessage.xml" xy="125,199">
+      <gearDisplay controller="c1" pages="0,1,2,3,4,5,6,7"/>
+      <gearXY controller="c1" pages="0,1,2,3,4,5,6,7,8" values="131,199|125,199|125,199|125,199|125,0|125,199|125,199|125,199|125,199"/>
+    </component>
+    <component id="n5_kghr" name="n5" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="427,317" group="n17_kghr">
+      <Button title="1"/>
+    </component>
+    <component id="n6_kghr" name="n6" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="629,320" group="n17_kghr">
+      <Button title="2"/>
+    </component>
+    <component id="n7_kghr" name="n7" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="831,323" group="n17_kghr">
+      <Button title="3"/>
+    </component>
+    <component id="n8_kghr" name="n8" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="1026,321" group="n17_kghr">
+      <Button title="4"/>
+    </component>
+    <component id="n9_kghr" name="n9" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="428,470" group="n17_kghr">
+      <Button title="5"/>
+    </component>
+    <component id="n10_kghr" name="n10" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="631,471" group="n17_kghr">
+      <Button title="6"/>
+    </component>
+    <component id="n11_kghr" name="n11" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="824,473" group="n17_kghr">
+      <Button title="7"/>
+    </component>
+    <component id="n12_kghr" name="n12" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="1028,471" group="n17_kghr">
+      <Button title="8"/>
+    </component>
+    <component id="n13_kghr" name="n13" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="430,618" group="n17_kghr">
+      <Button title="9"/>
+    </component>
+    <component id="n14_kghr" name="n14" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="629,623" group="n17_kghr">
+      <Button title="10"/>
+    </component>
+    <component id="n15_kghr" name="n15" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="833,618" group="n17_kghr">
+      <Button title="11"/>
+    </component>
+    <component id="n16_kghr" name="n16" src="wdgf3" fileName="Btn_KillNumber.xml" pkg="clld2jd3" xy="1032,626" group="n17_kghr">
+      <Button title="12"/>
+    </component>
+    <group id="n17_kghr" name="Group_Btns" xy="427,317" size="737,387" advanced="true">
+      <gearDisplay controller="c1" pages="4"/>
+    </group>
+    <component id="n19_kghr" name="Btn_JudgeGame" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="629,795">
+      <gearDisplay controller="c1" pages="4"/>
+      <Button title="放  逐" icon="ui://qr95dasdwdgf1"/>
+    </component>
+    <component id="n18_kghr" name="Btn_ToNight" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="58,43">
+      <gearDisplay controller="c1" pages="4,5"/>
+      <Button title="进入天黑" icon="ui://qr95dasdwdgf3"/>
+    </component>
+    <image id="n21_kghr" name="Img_Night" src="kghr1b" fileName="BG/Drak.png" pkg="qr95dasd" xy="550,200">
+      <gearDisplay controller="c1" pages="8"/>
+    </image>
+    <component id="n0_kghr" name="PanlMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0" touchable="false"/>
+    <graph id="n22_kghr" name="ToMain" xy="0,0" size="1600,900" touchable="false" type="rect" fillColor="#ff000000"/>
+  </displayList>
+  <transition name="ToNight">
+    <item time="0" type="Alpha" target="n21_kghr" tween="true" startValue="1" endValue="0" duration="30"/>
+  </transition>
+  <transition name="ToMain">
+    <item time="0" type="Alpha" target="n22_kghr" tween="true" startValue="0" endValue="1" duration="24"/>
+  </transition>
+</component>

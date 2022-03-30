@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="clld2jd3">
+  <resources>
+    <component id="wdgf0" name="PanelMask.xml" path="/" exported="true"/>
+    <component id="wdgf1" name="EyeOpen.xml" path="/" exported="true"/>
+    <component id="wdgf2" name="EyeClose.xml" path="/" exported="true"/>
+    <component id="wdgf3" name="Btn_KillNumber.xml" path="/" exported="true"/>
+    <component id="wdgf4" name="Btn_ChangePanel.xml" path="/" exported="true"/>
+    <component id="wkxp5" name="Btn_Act.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

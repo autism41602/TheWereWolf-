@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" extention="Button">
+  <controller name="c1" pages="4,HideID,5,ShowID,6,LoadGame" selected="0"/>
+  <displayList>
+    <loader id="n0_kghr" name="n0" xy="0,0" size="300,300" url="ui://qr95dasdwdgf19"/>
+    <loader id="n1_kghr" name="icon" xy="0,0" pivot="0.5,0.5" size="300,300"/>
+  </displayList>
+  <Button sound="ui://qoonkf3pwdgf16"/>
+</component>
