@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public AudioSourceManager audioSourceManager;
     public AudioSource audioSource;
     public AudioClip[] audioClip;
+    public AudioClip buttonSound;
 
     //信息
     [HideInInspector] public MessageManager messageManager;
@@ -37,10 +38,12 @@ public class GameManager : MonoBehaviour
         UIPackage.AddPackage("UI/Res_Game");
         UIPackage.AddPackage("UI/Res_Component");
         UIConfig.defaultFont = "汉仪南宫体简";
+        UIConfig.buttonSound = (NAudioClip) UIPackage.GetItemAssetByURL("ui://Res_Main/Crumple");
         GRoot.inst.SetContentScaleFactor(1600, 900, UIContentScaler.ScreenMatchMode.MatchWidthOrHeight);
         if (currentUIManager == null)
         {
             currentUIManager = new UIManager();
+            currentUIManager.MainUIManager();
         }
 
         if (audioSourceManager == null)

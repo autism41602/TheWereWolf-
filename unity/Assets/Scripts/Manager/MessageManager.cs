@@ -67,7 +67,7 @@ public class MessageManager
         witchKillNumber = 0;
         defenderNumber = 0;
     }
-
+    
     public DieType JudgementOfDeath()
     {
         //单死
@@ -125,6 +125,7 @@ public class MessageManager
         }
     }
 
+    //游戏胜利判断
     public GameJudgementState GameJudgement()
     {
         int num = 0;
@@ -158,6 +159,7 @@ public class MessageManager
             return GameJudgementState.VillagerWin;
         }
 
+        //神民全死 或 村民全死 狼人胜利
         num = 0;
         removeList.Clear();
         for (int i = 0; i < villagers.Length; i++)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1600,900" bgColorEnabled="true" bgColor="#000000">
-  <controller name="c1" pages="0,ShowID,1,LoadGame" selected="1"/>
+  <controller name="c1" pages="0,ShowID,1,LoadGame" selected="0"/>
   <displayList>
     <loader id="n2_kghr" name="BG" xy="0,0" size="1600,900" alpha="0.2" url="ui://qr95dasdwdgf0" fill="scaleFree" color="#ff0000"/>
     <component id="n0_kghr" name="GuideMessage" src="kghr2" fileName="GuideMessage.xml" xy="334,138"/>
@@ -13,7 +13,7 @@
     <image id="n5_kghr" name="n5" src="kghr1l" fileName="Game/load.png" pkg="qoonkf3p" xy="575,204" pivot="0.52,0.51">
       <gearDisplay controller="c1" pages="1"/>
     </image>
-    <component id="n3_kghr" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0"/>
+    <component id="n3_kghr" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0" touchable="false"/>
   </displayList>
   <transition name="t0">
     <item time="0" type="Alpha" target="n4_kghr" tween="true" startValue="1" endValue="0" duration="12"/>

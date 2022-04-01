@@ -2,7 +2,9 @@
 <component size="300,300" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <loader id="n0_r4hh" name="icon" xy="0,0" size="300,300" url="ui://qoonkf3pwdgf1a"/>
+    <loader id="n0_r4hh" name="icon" xy="0,0" size="300,300" url="ui://qoonkf3pwdgf1a">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
   </displayList>
   <Button/>
 </component>

@@ -15,6 +15,6 @@
         <item title="日文" icon="ui://cd8qbkcgr4hh3"/>
       </ComboBox>
     </component>
-    <component id="n6_r4hh" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0"/>
+    <component id="n6_r4hh" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0" touchable="false"/>
   </displayList>
 </component>

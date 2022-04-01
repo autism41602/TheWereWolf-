@@ -10,13 +10,13 @@
     <component id="n6_r4hh" name="Btn_Back" src="wdgf4" fileName="Btn_ChangePanel.xml" pkg="clld2jd3" xy="650,775">
       <Button icon="ui://qoonkf3pwdgf12"/>
     </component>
-    <list id="n8_r4hh" name="CardList" xy="0,0" size="1600,406" layout="row" overflow="scroll" scroll="horizontal" margin="55,21,0,0" colGap="21" defaultItem="ui://cm4d7omar4hh1" align="center" vAlign="middle" renderOrder="arch">
+    <list id="n8_r4hh" name="CardList" xy="0,0" size="1600,406" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="2" margin="55,21,0,0" colGap="21" defaultItem="ui://cm4d7omar4hh1" align="center" vAlign="middle" renderOrder="arch">
       <item/>
       <item/>
       <item/>
       <item/>
       <item/>
     </list>
-    <component id="n9_r4hh" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0"/>
+    <component id="n9_r4hh" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0" touchable="false"/>
   </displayList>
 </component>

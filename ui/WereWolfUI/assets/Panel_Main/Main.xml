@@ -16,7 +16,7 @@
       <Button title="退出游戏" icon="ui://qoonkf3pwdgf11"/>
     </component>
     <component id="n6_r4hh" name="PanelMask" src="wdgf0" fileName="PanelMask.xml" pkg="clld2jd3" xy="0,0" touchable="false"/>
-    <graph id="n7_r4hh" name="WhiteMask" xy="0,0" size="1600,900" type="rect"/>
+    <graph id="n7_r4hh" name="WhiteMask" xy="0,0" size="1600,900" touchable="false" type="rect"/>
   </displayList>
   <transition name="WhiteMaskAnim">
     <item time="0" type="Alpha" target="n7_r4hh" tween="true" startValue="1" endValue="0" duration="5"/>

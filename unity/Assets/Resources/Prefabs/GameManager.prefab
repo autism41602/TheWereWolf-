@@ -45,12 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInGame: 0
-  audioSourceManager: {fileID: 0}
   audioSource: {fileID: 7752940434461521091}
   audioClip:
   - {fileID: 8300000, guid: d38cecb1ad8c5944da0acdd9b3d06d37, type: 3}
   - {fileID: 8300000, guid: 1209c0b159ecf8540ac9518014cd41dd, type: 3}
   - {fileID: 8300000, guid: e9b0be9b24e2345479498039879ef069, type: 3}
+  buttonSound: {fileID: 8300000, guid: c30e2fdbb925b09418a360b34f4caf0d, type: 3}
 --- !u!82 &7752940434461521091
 AudioSource:
   m_ObjectHideFlags: 0
@@ -61,7 +61,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d38cecb1ad8c5944da0acdd9b3d06d37, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
