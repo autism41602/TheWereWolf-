@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Panel_DayAndNight/GuideMessage.xml -->
+  <string name="c4bsl32jkghr1-n1_kghr" mz="Tex_GuideMessage">Game over
+[color=#00FF00]Good people win[/color]</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_0" mz="Tex_GuideMessage">Dawn</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_1" mz="Tex_GuideMessage">Last night, [color=#00FF00]Christmas Eve[/color]</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_2" mz="Tex_GuideMessage">Last night, the dead player was
+</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_3" mz="Tex_GuideMessage">Double death last night
+</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_4" mz="Tex_GuideMessage">Please click the number of the player to banish</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_5" mz="Tex_GuideMessage">Game over
+[color=#00FF00]Good people win[/color]</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_6" mz="Tex_GuideMessage">Game over
+[color=#FF0000]Wolfman Victory[/color]</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_def" mz="Tex_GuideMessage">Dead players please post their last words</string>
+  <!-- Panel_DayAndNight/Main.xml -->
+  <string name="c4bsl32jkghr0-n3_kghr" mz="Btn_Return">End game</string>
+  <string name="c4bsl32jkghr0-n19_kghr" mz="Btn_JudgeGame">Exile</string>
+  <string name="c4bsl32jkghr0-n18_kghr" mz="Btn_ToNight">Into the dark</string>
+  <!-- Panel_Defender/GuideMessage.xml -->
+  <string name="cs9irmeqkghr1-n2_kghr" mz="n2">Guards please close your eyes</string>
+  <string name="cs9irmeqkghr1-n2_kghr-texts_0" mz="n2">Guards please open your eyes</string>
+  <string name="cs9irmeqkghr1-n2_kghr-texts_1" mz="n2">Guards please close your eyes</string>
+  <string name="cs9irmeqkghr1-n2_kghr-texts_def" mz="n2">The player you want to guard tonight</string>
+  <!-- Panel_Defender/Main.xml -->
+  <string name="cs9irmeqkghr0-n12_kghr-prompt" mz="Tex_GuardNumber">Please enter the guard player number</string>
+  <!-- Panel_Game/GuideMessage.xml -->
+  <string name="cxgbpywdkghr2-n0_kghr" mz="Tex_GuideID">Player ID </string>
+  <string name="cxgbpywdkghr2-n0_kghr-texts_0" mz="Tex_GuideID">Your identity is</string>
+  <string name="cxgbpywdkghr2-n0_kghr-texts_def" mz="Tex_GuideID">Player ID </string>
+  <string name="cxgbpywdkghr2-n5_kghr" mz="Tex_ID">Wolfman</string>
+  <string name="cxgbpywdkghr2-n2_kghr" mz="Tex_GuideClick">Game loading</string>
+  <string name="cxgbpywdkghr2-n2_kghr-texts_0" mz="Tex_GuideClick">Click the card to view the identity</string>
+  <string name="cxgbpywdkghr2-n2_kghr-texts_1" mz="Tex_GuideClick">Game loading</string>
+  <string name="cxgbpywdkghr2-n2_kghr-texts_def" mz="Tex_GuideClick">Click the card to hide your identity and pass the phone to the next person</string>
+  <!-- Panel_Help/Main.xml -->
+  <string name="cm4d7omar4hh0-n2_r4hh" mz="Tex_ID">Identity</string>
+  <!-- Panel_Hunter/GuideMessage.xml -->
+  <string name="cntdjjeskghr1-n0_kghr" mz="Tex_Guide">Hunter please close your eyes</string>
+  <string name="cntdjjeskghr1-n0_kghr-texts_0" mz="Tex_Guide">Hunter please open your eyes</string>
+  <string name="cntdjjeskghr1-n0_kghr-texts_1" mz="Tex_Guide">Hunter please close your eyes</string>
+  <string name="cntdjjeskghr1-n0_kghr-texts_def" mz="Tex_Guide">Your current status</string>
+  <string name="cntdjjeskghr1-n1_kghr" mz="Tex_ifShoot">Can shoot</string>
+  <string name="cntdjjeskghr1-n1_kghr-texts_0" mz="Tex_ifShoot">Do not shoot</string>
+  <string name="cntdjjeskghr1-n1_kghr-texts_def" mz="Tex_ifShoot">Can shoot</string>
+  <!-- Panel_Main/Main.xml -->
+  <string name="c7w2yv5swdgf0-n0_wkxp" mz="Btn_StartGame">Start Game</string>
+  <string name="c7w2yv5swdgf0-n1_wkxp" mz="Btn_Help">Game Help</string>
+  <string name="c7w2yv5swdgf0-n2_wkxp" mz="Btn_Setting">Game Settings</string>
+  <string name="c7w2yv5swdgf0-n3_wkxp" mz="Btn_ExitGame">Exit game</string>
+<!-- Panel_ProPhet/GuideMessage.xml -->
+  <string name="cbqxmvx5kghr2-n0_kghr" mz="n0">You are viewing the identity of the player</string>
+  <string name="cbqxmvx5kghr2-n0_kghr-texts_0" mz="n0">The prophet please open your eyes</string>
+  <string name="cbqxmvx5kghr2-n0_kghr-texts_1" mz="n0">You are viewing the player as</string>
+  <string name="cbqxmvx5kghr2-n0_kghr-texts_2" mz="n0">The prophet please close your eyes</string>
+  <string name="cbqxmvx5kghr2-n0_kghr-texts_def" mz="n0">Please enter the player you want to check
+Drag the corresponding card into the crystal ball</string>
+  <!-- Panel_ProPhet/Main.xml -->
+  <string name="cbqxmvx5kghr0-n4_kghr" mz="Btn_Certain">OK</string>
+  <string name="cbqxmvx5kghr0-n24_kghr" mz="Btn_Jump">skip</string>
+  <!-- Panel_Set/Main.xml -->
+  <string name="cd8qbkcgr4hh0-n0_r4hh" mz="Tex_Sound">Game volume:</string>
+  <string name="cd8qbkcgr4hh0-n1_r4hh" mz="Tex_Language">Language setting:</string>
+  <string name="cd8qbkcgr4hh0-n4_r4hh" mz="Combox_Language">Chinese</string>
+  <string name="cd8qbkcgr4hh0-n4_r4hh-0" mz="Combox_Language">Chinese</string>
+  <string name="cd8qbkcgr4hh0-n4_r4hh-1" mz="Combox_Language">English</string>
+  <string name="cd8qbkcgr4hh0-n4_r4hh-2" mz="Combox_Language">Japanese</string>
+  <!-- Panel_Switch/GuideMessage.xml -->
+  <string name="cjn2voa6kghr1-n3_kghr" mz="GuideMessage">Witch please close your eyes</string>
+  <string name="cjn2voa6kghr1-n3_kghr-texts_0" mz="GuideMessage">Witches please open your eyes</string>
+  <string name="cjn2voa6kghr1-n3_kghr-texts_1" mz="GuideMessage">The player who died tonight is</string>
+  <string name="cjn2voa6kghr1-n3_kghr-texts_2" mz="GuideMessage">Witch please close your eyes</string>
+  <string name="cjn2voa6kghr1-n3_kghr-texts_def" mz="GuideMessage">The player you want to poison is</string>
+  <!-- Panel_Switch/Main.xml -->
+  <string name="cjn2voa6kghr0-n4_kghr" mz="Btn_Save">Use the antidote</string>
+  <string name="cjn2voa6kghr0-n5_kghr" mz="Btn_Kill">Use poison</string>
+  <string name="cjn2voa6kghr0-n6_kghr" mz="Btn_Jump">skip</string>
+  <!-- Panel_Wolf/GuideMessage.xml -->
+  <string name="crwy908vkghr1-n1_kghr" mz="Tex_Guide">Wolfman please close your eyes</string>
+  <string name="crwy908vkghr1-n1_kghr-texts_0" mz="Tex_Guide">Wolfman please open your eyes</string>
+  <string name="crwy908vkghr1-n1_kghr-texts_2" mz="Tex_Guide">Wolfman please close your eyes</string>
+  <string name="crwy908vkghr1-n1_kghr-texts_def" mz="Tex_Guide">Wolves hunt players tonight</string>
+  <!-- Res_Component/Btn_Act.xml -->
+  <string name="clld2jd3wkxp5-n1_wkxp" mz="title">OK</string>
+  <!-- Res_Component/Btn_ChangePanel.xml -->
+  <string name="clld2jd3wdgf4-n1_wdgf" mz="title">return</string>
+</resources>

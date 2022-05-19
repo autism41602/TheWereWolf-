@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Panel_DayAndNight/GuideMessage.xml -->
+  <string name="c4bsl32jkghr1-n1_kghr" mz="Tex_GuideMessage">游戏结束
+[color=#00FF00]好人胜利[/color]</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_0" mz="Tex_GuideMessage">天亮了</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_1" mz="Tex_GuideMessage">昨晚，[color=#00FF00]平安夜[/color]</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_2" mz="Tex_GuideMessage">昨晚，死亡玩家是
+</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_3" mz="Tex_GuideMessage">昨晚双死，刀前毒后
+</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_4" mz="Tex_GuideMessage">请点击要放逐玩家的号码</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_5" mz="Tex_GuideMessage">游戏结束
+[color=#00FF00]好人胜利[/color]</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_6" mz="Tex_GuideMessage">游戏结束
+[color=#FF0000]狼人胜利[/color]</string>
+  <string name="c4bsl32jkghr1-n1_kghr-texts_def" mz="Tex_GuideMessage">请死亡玩家发表遗言</string>
+  <!-- Panel_DayAndNight/Main.xml -->
+  <string name="c4bsl32jkghr0-n3_kghr" mz="Btn_Return">结束游戏</string>
+  <string name="c4bsl32jkghr0-n19_kghr" mz="Btn_JudgeGame">放  逐</string>
+  <string name="c4bsl32jkghr0-n18_kghr" mz="Btn_ToNight">进入天黑</string>
+  <!-- Panel_Defender/GuideMessage.xml -->
+  <string name="cs9irmeqkghr1-n2_kghr" mz="n2">守卫请闭眼</string>
+  <string name="cs9irmeqkghr1-n2_kghr-texts_0" mz="n2">守卫请睁眼</string>
+  <string name="cs9irmeqkghr1-n2_kghr-texts_1" mz="n2">守卫请闭眼</string>
+  <string name="cs9irmeqkghr1-n2_kghr-texts_def" mz="n2">今晚您要守护的玩家</string>
+  <!-- Panel_Defender/Main.xml -->
+  <string name="cs9irmeqkghr0-n12_kghr-prompt" mz="Tex_GuardNumber">请输入守护玩家的号码</string>
+  <!-- Panel_Game/GuideMessage.xml -->
+  <string name="cxgbpywdkghr2-n0_kghr" mz="Tex_GuideID">号玩家看身份</string>
+  <string name="cxgbpywdkghr2-n0_kghr-texts_0" mz="Tex_GuideID">您的身份是</string>
+  <string name="cxgbpywdkghr2-n0_kghr-texts_def" mz="Tex_GuideID">号玩家看身份</string>
+  <string name="cxgbpywdkghr2-n5_kghr" mz="Tex_ID">狼人</string>
+  <string name="cxgbpywdkghr2-n2_kghr" mz="Tex_GuideClick">游戏加载中</string>
+  <string name="cxgbpywdkghr2-n2_kghr-texts_0" mz="Tex_GuideClick">点击卡牌查看身份</string>
+  <string name="cxgbpywdkghr2-n2_kghr-texts_1" mz="Tex_GuideClick">游戏加载中</string>
+  <string name="cxgbpywdkghr2-n2_kghr-texts_def" mz="Tex_GuideClick">点击卡牌隐藏身份，并将手机递给下一位</string>
+  <!-- Panel_Help/Main.xml -->
+  <string name="cm4d7omar4hh0-n2_r4hh" mz="Tex_ID">身  份</string>
+  <!-- Panel_Hunter/GuideMessage.xml -->
+  <string name="cntdjjeskghr1-n0_kghr" mz="Tex_Guide">猎人请闭眼</string>
+  <string name="cntdjjeskghr1-n0_kghr-texts_0" mz="Tex_Guide">猎人请睁眼</string>
+  <string name="cntdjjeskghr1-n0_kghr-texts_1" mz="Tex_Guide">猎人请闭眼</string>
+  <string name="cntdjjeskghr1-n0_kghr-texts_def" mz="Tex_Guide">您的当前状态</string>
+  <string name="cntdjjeskghr1-n1_kghr" mz="Tex_ifShoot">可以开枪</string>
+  <string name="cntdjjeskghr1-n1_kghr-texts_0" mz="Tex_ifShoot">不可开枪</string>
+  <string name="cntdjjeskghr1-n1_kghr-texts_def" mz="Tex_ifShoot">可以开枪</string>
+  <!-- Panel_Main/Main.xml -->
+  <string name="c7w2yv5swdgf0-n0_wkxp" mz="Btn_StartGame">开始游戏</string>
+  <string name="c7w2yv5swdgf0-n1_wkxp" mz="Btn_Help">游戏帮助</string>
+  <string name="c7w2yv5swdgf0-n2_wkxp" mz="Btn_Setting">游戏设置</string>
+  <string name="c7w2yv5swdgf0-n3_wkxp" mz="Btn_ExitGame">退出游戏</string>
+  <!-- Panel_ProPhet/GuideMessage.xml -->
+  <string name="cbqxmvx5kghr2-n0_kghr" mz="n0">您查看玩家的身份是</string>
+  <string name="cbqxmvx5kghr2-n0_kghr-texts_0" mz="n0">预言家请睁眼</string>
+  <string name="cbqxmvx5kghr2-n0_kghr-texts_1" mz="n0">您查看玩家的身份是</string>
+  <string name="cbqxmvx5kghr2-n0_kghr-texts_2" mz="n0">预言家请闭眼</string>
+  <string name="cbqxmvx5kghr2-n0_kghr-texts_def" mz="n0">请将你想要查验玩家
+对应的卡牌拖进水晶球</string>
+  <!-- Panel_ProPhet/Main.xml -->
+  <string name="cbqxmvx5kghr0-n4_kghr" mz="Btn_Certain">确  定</string>
+  <string name="cbqxmvx5kghr0-n24_kghr" mz="Btn_Jump">跳  过</string>
+  <!-- Panel_Set/Main.xml -->
+  <string name="cd8qbkcgr4hh0-n0_r4hh" mz="Tex_Sound">游戏音量：</string>
+  <string name="cd8qbkcgr4hh0-n1_r4hh" mz="Tex_Language">语言设置：</string>
+  <string name="cd8qbkcgr4hh0-n4_r4hh" mz="Combox_Language">中文</string>
+  <string name="cd8qbkcgr4hh0-n4_r4hh-0" mz="Combox_Language">中文</string>
+  <string name="cd8qbkcgr4hh0-n4_r4hh-1" mz="Combox_Language">英文</string>
+  <string name="cd8qbkcgr4hh0-n4_r4hh-2" mz="Combox_Language">日文</string>
+  <!-- Panel_Switch/GuideMessage.xml -->
+  <string name="cjn2voa6kghr1-n3_kghr" mz="GuideMessage">女巫请闭眼</string>
+  <string name="cjn2voa6kghr1-n3_kghr-texts_0" mz="GuideMessage">女巫请睁眼</string>
+  <string name="cjn2voa6kghr1-n3_kghr-texts_1" mz="GuideMessage">今晚死亡的玩家是</string>
+  <string name="cjn2voa6kghr1-n3_kghr-texts_2" mz="GuideMessage">女巫请闭眼</string>
+  <string name="cjn2voa6kghr1-n3_kghr-texts_def" mz="GuideMessage">您要毒杀的玩家是</string>
+  <!-- Panel_Switch/Main.xml -->
+  <string name="cjn2voa6kghr0-n4_kghr" mz="Btn_Save">使用解药</string>
+  <string name="cjn2voa6kghr0-n5_kghr" mz="Btn_Kill">使用毒药</string>
+  <string name="cjn2voa6kghr0-n6_kghr" mz="Btn_Jump">跳 过</string>
+  <!-- Panel_Wolf/GuideMessage.xml -->
+  <string name="crwy908vkghr1-n1_kghr" mz="Tex_Guide">狼人请闭眼</string>
+  <string name="crwy908vkghr1-n1_kghr-texts_0" mz="Tex_Guide">狼人请睁眼</string>
+  <string name="crwy908vkghr1-n1_kghr-texts_2" mz="Tex_Guide">狼人请闭眼</string>
+  <string name="crwy908vkghr1-n1_kghr-texts_def" mz="Tex_Guide">狼队今晚要猎杀的玩家</string>
+  <!-- Res_Component/Btn_Act.xml -->
+  <string name="clld2jd3wkxp5-n1_wkxp" mz="title">确  定</string>
+  <!-- Res_Component/Btn_ChangePanel.xml -->
+  <string name="clld2jd3wdgf4-n1_wdgf" mz="title">返  回</string>
+</resources>

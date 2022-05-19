@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- MopUp/Com/ButtonAll.xml -->
+  <string name="cyabfzocolffr-n2_pnls" mz="n2">一键扫荡</string>
+  <!-- MopUp/Com/ButtonConfirm.xml -->
+  <string name="cyabfzocolffp-n2_pnls" mz="title">确定</string>
+  <!-- MopUp/MopUpConfirm.xml -->
+  <string name="cyabfzocsdzwa-n15_olff" mz="n15">快速挑战次数确认</string>
+  <!-- MopUp/MopUpNormal.xml -->
+  <string name="cyabfzocsdzw0-n11_olff" mz="n11">扫荡</string>
+  <string name="cyabfzocsdzw0-n19_eydw" mz="tex">当前最高回合数为[color=#FF7200]{count=100}[/color],
+是否消耗&lt;img src='ui://Common/diamondNew' width='20%' height='20%'/&gt;{spend=100}进行快速挑战？</string>
+</resources>
